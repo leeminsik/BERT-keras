@@ -2,7 +2,7 @@ import math
 import numpy as np
 import keras.backend as K
 from keras.layers import Dropout
-
+import pandas as pd
 
 def shape_list(x):
     if K.backend() != 'theano':
